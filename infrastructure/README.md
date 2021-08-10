@@ -33,4 +33,14 @@ $ terraform init
 
 This Terraform script requires an existing Azure subscription to deploy resources to. You can define the subscription as parameter when running the terraform script or change it in the `variable.tf` file.
 
-Use the following command to see changes that would
+Use the following command to see changes that would terraform would make.
+
+```bash
+$ terraform plan
+```
+
+To apply the above changes to the infrastructure use the following command:
+
+```bash
+$ terraform apply
+```
